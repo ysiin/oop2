@@ -103,9 +103,9 @@ int main()
     BankTransfer Tf1;
     DigitalWallet wlt1;
 
-    Pay1.processPayment(1234, 666, "20/05/2025", "Done");
-    Pay1.validatePayment(1234, 666, "20/05/2025", 100000);
-    Pay1.refundPayment(1234, "20/05/2025", "Refund");
+    Pay1.processPayment(1234, 666, "22/04/2025", "Done");
+    Pay1.validatePayment(1234, 666, "22/04/2025", 100000);
+    Pay1.refundPayment(1234, "22/04/2025", "Refund");
 
     Tf1.processPayment(121212, 131313, "Mandiri");
     
